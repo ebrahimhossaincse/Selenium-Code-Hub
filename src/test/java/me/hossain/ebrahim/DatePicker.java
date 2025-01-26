@@ -28,7 +28,7 @@ public class DatePicker {
         // Open the website
         driver.get("https://www.tutorialspoint.com/selenium/practice/date-picker.php");
         // Initialize WebDriverWait
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
 
         // Call the function with desired date and time
         selectDateTime(driver, wait, "15", "February", "2025", "10", "30", "AM");
