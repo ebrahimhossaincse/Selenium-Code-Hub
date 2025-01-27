@@ -8,7 +8,11 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
-public class BasicAuthenticationPopupTest {
+/*
+In this code you will learn how to do authentication through popup.
+ */
+
+public class AuthenticationThroughPopup {
     WebDriver driver;
 
     @BeforeSuite
